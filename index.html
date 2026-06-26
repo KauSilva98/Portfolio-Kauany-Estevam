@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Kauany Estevam da Silva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação Fixo no Topo -->
+    <!-- Ele permite navegar pelas seções sem recarregar a página -->
+    <header class="navbar">
+        <div class="nav-container">
+            <span class="logo">Kauany Estevam</span>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- Botão para a funcionalidade JavaScript de alternar tema -->
+            <button id="toggle-theme" class="btn-theme">Alternar Tema</button>
+        </div>
+    </header>
+
+    <!-- Área Principal de Conteúdo -->
+    <main class="content">
+
+        <!-- Seção 1: Sobre Mim -->
+        <section id="sobre" class="section-card">
+            <h1>Sobre Mim</h1>
+            <div class="sobre-container">
+                <img src="caricatura.png" alt="Caricatura de Kauany Estevam" class="profile-img">
+                <div class="profile-box">
+                    <p>Olá! Eu sou a <strong>Kauany Estevam da Silva</strong> (RU: 5487627).</p>
+                    <p>Atualmente, sou estudante de Engenharia de Software e trabalho no Centro de Controle de Operações de uma concessionária de rodovias. Sou fascinada por desenvolvimento web, análise de dados e pela automação de processos operacionais, buscando sempre aplicar a tecnologia para otimizar fluxos de trabalho.</p>
+                    <p>Nas horas vagas, gosto de estudar novas tecnologias, programar pequenos projetos pessoais, ler e praticar esportes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Formação (Cursos, idiomas e educação recente) -->
+        <section id="formacao" class="section-card">
+            <h1>Formação</h1>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Graduação em Engenharia de Software</h3>
+                    <p><strong>Instituição:</strong> Centro Universitário Internacional UNINTER</p>
+                    <p><em>Status: Cursando</em></p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Idiomas</h3>
+                    <p>Português (Nativo) | Inglês (Básico)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Cursos Complementares</h3>
+                    <p>Excel Avançado para Análise de Dados</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Portfólio (Links para repositórios ou trabalhos) -->
+        <section id="portfolio" class="section-card">
+            <h1>Portfólio</h1>
+            <p>Abaixo está o link para o repositório deste e de outros projetos que desenvolvo:</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="img.png" alt="Tecnologia e Automação" class="portfolio-img">
+                    <h3>Portfólio Web Pessoal</h3>
+                    <p>Site dinâmico em formato Single Page desenvolvido puramente com HTML5, CSS3 e JavaScript para a UNINTER.</p>
+                    <a href="https://github.com/KauSilva98" target="_blank" class="repo-link">Ver meu GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Contato (Formulário com validação em JavaScript) -->
+        <section id="contato" class="section-card">
+            <h1>Contato</h1>
+            <p>Entre em contato preenchendo o formulário abaixo:</p>
+            
+            <form id="contact-form" class="form-container">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" placeholder="Digite seu nome completo">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" placeholder="exemplo@dominio.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé Identificado com as Informações da Aluna -->
+    <footer class="footer">
+        <p>&copy; 2026 | Kauany Estevam da Silva - RU 5487627</p>
+        <p>Atividade Prática - Aplicação Web e Móveis.</p>
+    </footer>
+    
+    <!-- Vinculação do arquivo de comportamento JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
